@@ -1,0 +1,159 @@
+@charset "UTF-8";
+/*
+    Author:  Cara Jones
+    Date:    June 17, 2022
+    Assignment: About A Company
+    File: styles.css
+    #4a0000
+    #df0000
+    #ffa5a9
+    #cad15e
+    #2a5800
+*/
+
+/*----------------------------------- BASICS ------------------------------*/
+html{
+  background-color: #4a0000;
+}
+
+body{
+  background-color: #F2D5E3;
+  color: #4a0000;
+  border-radius: 5%;
+}
+
+header{
+  width: 100%;
+  text-align: center;
+}
+/*-------------------------------- NAVIGATION ---------------------------*/
+nav ul li {
+  font-size: 1.5em;
+  display: table-cell;
+  width:8.5%;
+  text-align: center;
+  padding: 8px;
+  border: solid #4a0000;
+  background-color: #ffa5a9;
+}
+nav ul li a{
+    color: #df0000;
+    text-decoration: none;
+}
+/*---------------------------------- HEADERS --------------------------------*/
+
+h1{
+  color:#4a0000;
+  text-align: center;
+  font-size: 3em;
+}
+h2{
+  color:#4a0000;
+  text-align: center;
+  font-size: 2em;
+}
+/*---------------------------------- MENU --------------------------------*/
+dl dt{
+  text-align: center;
+  font-weight: bold;
+  text-decoration: underline;
+  font-size: 1.5em;
+  font-family: "Lucida Grande";
+}
+dl dd {
+  text-align: center;
+  font-family: "Lucida Grande";
+  padding: 0px 50px 70px 50px;
+}
+/*----------------------------------ASIDE AND DIVS --------------------------------*/
+div{
+  padding-right: 40px;
+  padding-left: 30px;
+}
+div aside{
+  position: relative;
+  padding: 10px;
+  color:#F2D5E3;
+  margin: 15px 15px 5px 15px;
+  background-color: #2a5800;
+  float:right;
+  border-radius: 20%;
+  quotes: "\201C" "\201D";
+}
+div aside p{
+  font-weight: bolder;
+  font-size: .8em;
+  font-family: "Comic Sans Ms", cursive;
+}
+
+div aside p::before{
+  content: open-quote;
+  font-weight: bold;
+  font-size: 2em;
+  font-family: "Comic Sans Ms", cursive;
+}
+div aside p::after{
+  content: open-quote;
+  font-weight: bold;
+  font-size: 2em;
+  font-family: "Comic Sans Ms", cursive;
+}
+div aside div{
+  text-align: center;
+  font-size: .75em;
+  font-family: "Comic Sans Ms", cursive;
+  color:#cad15e;
+}
+h3{
+  padding-left: 10%;
+  font-size: 1.5em;
+  font-family:"Lucida Grande";
+  text-decoration: underline;
+  font-weight: bold;
+}
+/*------------------------ HOMEPAGE IMG AND P'S  ----------------------------*/
+p{
+  padding: 20px 20px 0px 00px;
+  font-size: 1.3em;
+  font-family: "Lucida Grande";
+  text-align: center;
+}
+#main{
+  padding-left: 15%;
+  padding-bottom: 15px;
+}
+
+#menu img{
+    display: block;
+    border-radius: 40%;
+    width:300px;
+    margin-left: 38%;
+    padding-top: 25px;
+}
+/*---------------------------------- FOOTER --------------------------------*/
+
+footer{
+  position: sticky;
+  bottom: 0px;
+  padding-top: 9px;
+  font-family: "Lucinda Grande", cursive;
+  color: #F2D5E3;
+  background-color: #4a0000;
+}
+footer address{
+  float: left;
+}
+footer p{
+  padding-left: 10%;
+}
+footer a{
+  color: #ffa5a9;
+}
+a:active{
+  color: #2a5800;
+  text-decoration: underline;
+}
+a:hover{
+  color: #2a5800;
+  text-decoration: underline;
+}
